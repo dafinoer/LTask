@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.dafinoer.task1.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text_input_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="number"
+        android:hint="@string/hint_edit_text_input_1"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_input_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="number"
+        android:hint="@string/hint_edit_text_input_2"/>
+
+    <Button
+        android:id="@+id/action_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_title"
+        android:layout_margin="16dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:onClick="mButtonProcess"/>
+
+
+    <ListView
+        android:id="@+id/list_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task 1</string>
+
+    <string name="hint_edit_text_input_1">Masukan Batas Awal</string>
+    <string name="hint_edit_text_input_2">Masukan Batas Akhir</string>
+
+    <string name="button_text_title">Process</string>
+</resources>
