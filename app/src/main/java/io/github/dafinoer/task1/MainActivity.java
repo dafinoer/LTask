@@ -56,12 +56,5 @@ public class MainActivity extends AppCompatActivity {
 
         getAdapter(iterateListing.iterateNumber(listing));
 
-
-
-
-
-
-//        System.out.println(iterateNumber(listing.getFirst(), listing.getSecond()));
-
     }
 }
